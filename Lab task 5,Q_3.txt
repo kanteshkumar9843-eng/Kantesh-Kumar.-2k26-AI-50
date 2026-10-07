@@ -1,0 +1,9 @@
+employees = []
+
+for i in range(3):
+    name = input("Name: ")
+    age = int(input("Age: "))
+    salary = float(input("Salary: "))
+    employees.append((name, age, salary))
+
+print(employees)
