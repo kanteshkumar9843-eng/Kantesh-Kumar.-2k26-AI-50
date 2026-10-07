@@ -1,0 +1,7 @@
+s = input("Enter a sentence: ")
+
+print("Characters:", len(s))
+print("Words:", len(s.split()))
+print("Vowels:", sum(1 for x in s.lower() if x in "aeiou"))
+print("Spaces:", s.count(" "))
+print("Digits:", sum(1 for x in s if x.isdigit()))
